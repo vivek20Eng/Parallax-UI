@@ -5,7 +5,7 @@
 	import banner from '../../src/lib/assets/banner.png';
 	import vector from '../../src/lib/assets/Vector.svg';
 	import banner2 from '../../src/lib/assets/banner2.png';
- 	import banner3 from '../lib/assets/footer-banner.png'
+	import banner3 from '../lib/assets/footer-banner.png';
 	let gsap, ScrollTrigger;
 
 	onMount(async () => {
@@ -156,7 +156,7 @@
 				>
 					Explore Through Busy CitySacpes <br /> and Exotic Natural Landsscapes
 				</h1>
-				<p class="text-slate-600 py-0 px-2 sm:px-0 sm:py-4">
+				<p class="text-slate-600 py-0 px-2 sm:px-0 sm:py-4 text-center">
 					Experience the best of both worlds and beyond with Sky Guru.
 				</p>
 			</section>
@@ -211,7 +211,7 @@
 			</p>
 		</div>
 		<div
-			class="relative sm:absolute flex bottom-16 justify-center items-center sm:-bottom-52 w-full"
+			class="relative sm:absolute flex bottom-16 justify-center items-center sm:-bottom-52 w-full flex-wrap"
 		>
 			<section
 				class="z-10 flex flex-col sm:flex-row w-full items-center sm:items-start gap-10 justify-center"
@@ -288,23 +288,30 @@
 	</section>
 </div>
 
-
 <!-- footer banner -->
 
 <section class="w-full h-48 relative">
-<img src={banner3} alt="banner" class="h-56 sm:h-96 w-full">
-<div class="absolute top-10 flex flex-col w-full justify-center items-center space-y-5">
-	<section class="flex flex-col justify-center items-center">
-		<h1 class="font-bold text-white text-xl sm:text-4xl">Subscribe Now for Best Deals</h1>
-		<p class="text-white py-4">Become the First to Know about Our Best Offers! </p>
-	</section>
-<div class="bg-white w-5/6 sm:w-4/12 h-12 rounded-full justify-between overflow-hidden flex items-center ">
-
-	<input type="email" class="text-start h-full outline-none overflow-hidden px-4" placeholder="Type your email here"name="" id="">
-	<button class="rounded-full w-32 h-5/6  bg-[#155DFF] text-white mr-[3px]"> Subscribe</button>
-</div>
-</div>
+	<img src="{banner3}" alt="banner" class="h-56 sm:h-96 w-full" />
+	<div class="absolute top-10 flex flex-col w-full justify-center items-center space-y-5">
+		<section class="flex flex-col justify-center items-center">
+			<h1 class="font-bold text-white text-xl sm:text-4xl">Subscribe Now for Best Deals</h1>
+			<p class="text-white py-4">Become the First to Know about Our Best Offers!</p>
+		</section>
+		<div
+			class="bg-white w-5/6 sm:w-4/12 h-12 rounded-full justify-between overflow-hidden flex items-center"
+		>
+			<input
+				type="email"
+				class="text-start h-full outline-none overflow-hidden px-4"
+				placeholder="Type your email here"
+				name=""
+				id=""
+			/>
+			<button class="rounded-full w-32 h-5/6 bg-[#155DFF] text-white mr-[3px]"> Subscribe</button>
+		</div>
+	</div>
 </section>
+
 <style>
 	.navbar a {
 		text-decoration: none;
