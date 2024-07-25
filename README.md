@@ -1,6 +1,12 @@
 ![Project Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 
+- 🌐 demo link: [Live Demo](https://parallax-ui.vercel.app/)
+
+
+
 # 🪟 Scrolling Window Animation
+
+![Scrolling Window Animation](screenshots/1.png) 
 
 This project showcases a smooth scrolling animation effect with three windows that open to reveal different images. The project is built using modern web technologies, including Svelte, GSAP, and Tailwind CSS.
 
@@ -23,16 +29,24 @@ This project showcases a smooth scrolling animation effect with three windows th
 1. ## 1. **Clone this repository** or download the source code:
 
    ```bash
-   git clone https://github.com/yourusername/scrolling-window-animation.git
+   git clone https://github.com/vivek20Eng/Parallax-UI.git
 2. ## 2. **Navigate to the project** directory in your terminal:
     ```bash
-    cd scrolling-window-animation
+    cd Parallax-UI
 3. ## 3. Install the required dependencies:
     ```bash 
     npm install
 4. ## 4. Running the Project
     ```bash
-    npm start
+    npm run dev
 5. ## 5. Open your web browser and go to 
     ```bash
-    http://localhost:3000
+    http://localhost:5173/
+
+
+## 🖼️ Screenshots
+
+![Scrolling Window Animation](screenshots/0.png) 
+![Scrolling Window Animation](screenshots/1.png) 
+![Scrolling Window Animation](screenshots/2.png) 
+![Scrolling Window Animation](screenshots/3.png) 

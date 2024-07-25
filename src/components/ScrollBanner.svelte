@@ -203,7 +203,7 @@
 
 	<!-- container -->
 	<div class="flex relative flex-wrap gap-4 w-full my-6">
-		<img src={banner2} alt="banner" class=" w-full h-[15rem] sm:h-[35rem]" />
+		<img src={banner2} alt="banner" class="bg-cover w-full h-[15rem] sm:h-[35rem]" />
 		<div class="absolute text-center top-10 sm:top-20 flex flex-col w-full justify-center">
 			<h1 class="text-4xl text-white z-10 leding-7 font-bold">Why?</h1>
 			<p class="text-white leading-9">
@@ -291,7 +291,7 @@
 <!-- footer banner -->
 
 <section class="w-full h-48 relative">
-	<img src="{banner3}" alt="banner" class="h-56 sm:h-96 w-full" />
+	<img src="{banner3}" alt="banner" class="bg-cover h-56 sm:h-96 w-full" />
 	<div class="absolute top-10 flex flex-col w-full justify-center items-center space-y-5">
 		<section class="flex flex-col justify-center items-center">
 			<h1 class="font-bold text-white text-xl sm:text-4xl">Subscribe Now for Best Deals</h1>
@@ -310,6 +310,16 @@
 			<button class="rounded-full w-32 h-5/6 bg-[#155DFF] text-white mr-[3px]"> Subscribe</button>
 		</div>
 	</div>
+	<footer class="footer w-full h-[5rem] flex justify-center items-center bg-slate-400 gap-5">
+		<p>Created by Vivek</p>
+		<a
+		  href="https://github.com/vivek20Eng/Parallax-UI"
+		  target="_blank"
+		  rel="noopener noreferrer"
+		>
+		  <i class="fab fa-github"></i> GitHub Repository
+		</a>
+	  </footer>
 </section>
 
 <style>
