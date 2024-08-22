@@ -1,8 +1,6 @@
 ![Project Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 
-- 🌐 demo link: [Live Demo](https://parallax-ui.vercel.app/)
-
-
+## 🌐 demo link: [Live Demo](https://parallax-ui.vercel.app/)
 
 # 🪟 Scrolling Window Animation
 
